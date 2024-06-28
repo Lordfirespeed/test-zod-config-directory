@@ -1,0 +1,10 @@
+# Exclude everything
+/*
+
+# Include specifically
+!/package.json
+!/pnpm-lock.yaml
+!/tsconfig.json
+!/*.config.ts
+
+!/src
