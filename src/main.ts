@@ -6,8 +6,6 @@ import { scriptAdapter } from 'zod-config/script-adapter';
 
 import { configSchema } from "./schema/config";
 
-console.log(path.join(import.meta.dirname, "config"))
-
 const customConfig = await loadConfig({
   schema: configSchema,
   adapters: directoryAdapter({
